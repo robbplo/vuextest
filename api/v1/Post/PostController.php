@@ -2,10 +2,10 @@
 
 namespace Api\v1\Post;
 
-use Api\v1\ApiController;
+use App\Http\Controllers\Controller;
 use App\Post;
 
-class PostController extends ApiController
+class PostController extends Controller
 {
     public function index()
     {
