@@ -27,6 +27,7 @@ Route::group([
         'prefix' => 'posts',
     ], function () {
         Route::get('/', 'PostController@index');
+        Route::get('/test', 'PostController@destroy');
     });
 
 });
